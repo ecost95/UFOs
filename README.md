@@ -12,12 +12,12 @@ The data for the table will be kept in a javascript file, and will be displayed 
 
 
 ## Source Materials
-Data Source: /static/js/data.js
-Javascript file: /static/js/app.js
-Images: /static/images/nasa.jpeg
-CSS: /static/css/style.css
-HTML: index.html
-Software: Python 3.6.1, Visual Studio Code, 1.38.1
+- Data Source: /static/js/data.js
+- Javascript file: /static/js/app.js
+- Images: /static/images/nasa.jpeg
+- CSS: /static/css/style.css
+- HTML: index.html
+- Software: Python 3.6.1, Visual Studio Code, 1.38.1
 
 ## Results
 Using out Javascript file app.js, we were able to create several functions which looped through our data to build a table and filter our data. First, we used a d3 selector to select "tbody" from our index as the table referece. Next the function buildTable() clears out existing data loops through each object in our dataset to create the inital table. This is what our users initially see when they go to the webpage:
