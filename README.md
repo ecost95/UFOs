@@ -33,6 +33,6 @@ Here is an image of our table when filtered by state: ca and city: el cajon:
 ## Summary
 The project results are satisfactory and the webpage functions as expected. However, there is still room for improvement for this project. 
 
-For one, we could improve the filter table by adding a button that says "Filter". This would allow users to type in their search criteria, check for spelling errors, and only show them results when they click the button to filter. To do this, we could add a Bootstrab button element to the index.HTML and create an event listened for the button "on click".
+For one, we could improve the filter table by adding a button that says "Filter". This would allow users to type in their search criteria, check for spelling errors, and only show them results when they click the button to filter. To do this, we could add a Bootstrab button element to the index.html and create an event listened for the button "on click".
 
 We could also add additional an additional style references to our index.html to add more customizations, including new fonts for different elements (table, paragraph, title, etc).
