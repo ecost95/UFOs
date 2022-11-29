@@ -24,7 +24,7 @@ Using out Javascript file app.js, we were able to create several functions which
 
 
 Next, the function updateFilters() uses d3 select to save the element that was changed as a variable, and save the id of the filter that was changed as a variable. If a filter value was entered then the function adds that filterId and value to the filters list. Finally, it applies all the filters to rebuild the table. 
-The filterTables() function loop through all of the filters and keep any data that matches the filter values in our data. It applies a d3 event to listen for changes to each filter, then rebuilds the table. 
+The filterTables() function loops through all of the filters and keep any data that matches the values in our data. It applies a d3 event to listen for changes to each filter, then rebuilds the table. 
 
 Here is an image of our table when filtered by state: ca and city: el cajon:
 
